@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Can Soykan Yılmaz — altyapı, hosting ve iş uygulamaları">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="300">
+      <stop offset="0%" stop-color="#0A0C0B"/>
+      <stop offset="100%" stop-color="#101413"/>
+    </linearGradient>
+    <linearGradient id="mk" gradientUnits="userSpaceOnUse" x1="56" y1="96" x2="104" y2="176">
+      <stop offset="0%" stop-color="#86EFAC"/>
+      <stop offset="50%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+    <linearGradient id="wire" gradientUnits="userSpaceOnUse" x1="820" y1="60" x2="1160" y2="250">
+      <stop offset="0%" stop-color="#4ADE80" stop-opacity=".75"/>
+      <stop offset="100%" stop-color="#4ADE80" stop-opacity=".12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Ince izgara: uygulamadaki zemin deseniyle ayni dil -->
+  <g stroke="#4ADE80" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 32h1200M0 64h1200M0 96h1200M0 128h1200M0 160h1200M0 192h1200M0 224h1200M0 256h1200M0 288h1200"/>
+    <path d="M32 0v300M64 0v300M96 0v300M128 0v300M160 0v300M192 0v300M224 0v300M256 0v300M288 0v300M320 0v300M352 0v300M384 0v300M416 0v300M448 0v300M480 0v300M512 0v300M544 0v300M576 0v300M608 0v300M640 0v300M672 0v300M704 0v300M736 0v300M768 0v300M800 0v300M832 0v300M864 0v300M896 0v300M928 0v300M960 0v300M992 0v300M1024 0v300M1056 0v300M1088 0v300M1120 0v300M1152 0v300M1184 0v300"/>
+  </g>
+
+  <!-- Sag: devre izi / dugum agi (dik acili yollar) -->
+  <g stroke="url(#wire)" stroke-width="1.6" fill="none" stroke-linecap="square">
+    <path d="M840 92 L904 92 L904 148 L992 148 L992 104 L1080 104"/>
+    <path d="M840 208 L936 208 L936 172 L1024 172 L1024 220 L1128 220"/>
+    <path d="M992 148 L992 208"/>
+  </g>
+  <g fill="#4ADE80">
+    <rect x="836" y="88" width="8" height="8" fill-opacity=".85"/>
+    <rect x="900" y="144" width="9" height="9"/>
+    <rect x="988" y="100" width="8" height="8" fill-opacity=".8"/>
+    <rect x="1076" y="100" width="8" height="8" fill="#5EC8D8"/>
+    <rect x="836" y="204" width="8" height="8" fill-opacity=".7"/>
+    <rect x="932" y="168" width="8" height="8" fill-opacity=".8"/>
+    <rect x="1020" y="216" width="9" height="9" fill="#5EC8D8"/>
+    <rect x="1124" y="216" width="8" height="8" fill-opacity=".6"/>
+  </g>
+
+  <!-- Logo isareti -->
+  <rect x="56" y="98" width="11" height="76" fill="url(#mk)"/>
+  <path d="M64 118 H92" stroke="url(#mk)" stroke-width="9"/>
+  <path d="M64 154 H92" stroke="url(#mk)" stroke-width="9"/>
+  <rect x="98" y="110" width="17" height="17" fill="#4ADE80"/>
+  <rect x="98" y="146" width="17" height="17" fill="#5EC8D8"/>
+
+  <text x="146" y="130" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#E6EDE8" letter-spacing="-1.5">can soykan yılmaz</text>
+  <text x="146" y="166" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#7C8781">// altyapı · hosting · dns · güvenlik · iş uygulamaları</text>
+
+  <g transform="translate(146,192)" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13">
+    <rect x="0" y="0" width="86" height="26" fill="#161A18" stroke="#2F3632"/>
+    <text x="43" y="17.5" fill="#93A099" text-anchor="middle">laravel</text>
+    <rect x="94" y="0" width="60" height="26" fill="#161A18" stroke="#2F3632"/>
+    <text x="124" y="17.5" fill="#93A099" text-anchor="middle">vue</text>
+    <rect x="162" y="0" width="66" height="26" fill="#161A18" stroke="#2F3632"/>
+    <text x="195" y="17.5" fill="#93A099" text-anchor="middle">linux</text>
+    <rect x="236" y="0" width="70" height="26" fill="#161A18" stroke="#2F3632"/>
+    <text x="271" y="17.5" fill="#93A099" text-anchor="middle">plesk</text>
+    <rect x="314" y="0" width="62" height="26" fill="#161A18" stroke="#2F3632"/>
+    <text x="345" y="17.5" fill="#93A099" text-anchor="middle">mysql</text>
+  </g>
+
+  <!-- Kose ayraclari -->
+  <g stroke="#2F3632" stroke-width="1.5" fill="none">
+    <path d="M20 34V20h14"/>
+    <path d="M1166 266v14h-14"/>
+  </g>
+</svg>
