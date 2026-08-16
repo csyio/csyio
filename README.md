@@ -58,6 +58,17 @@ ikonlardan grafiklere kadar her şey el yapımı.
 
 <br>
 
+### Açık kaynak katkılarım
+
+**[Dikte — macOS desteği](https://github.com/yusufipk/dikte)** &mdash; İlk büyük
+açık kaynak katkılarımdan biri. Linux için geliştirilen Dikte'ye macOS kurucusu
+ve uygulama paketi, görünür menü çubuğu simgesi, yerel global kısayollar,
+pano/yapıştırma entegrasyonu ve macOS izin akışını ekledim. Linux ve macOS test
+matrisleriyle doğrulanan çalışma ana projeye
+[PR #25](https://github.com/yusufipk/dikte/pull/25) üzerinden dahil edildi.
+
+<br>
+
 ### Üzerinde çalıştıklarım
 
 **Kurumsal Linux dağıtımı** — Ubuntu tabanlı, markalı, zero-touch kurulan bir
@@ -110,6 +121,16 @@ the same job. Based in Türkiye.
   reference app for MSP/hosting terminology, industry news, and daily tools.
   Single file, zero dependencies; everything from the icons to the charts is
   hand-made.
+
+**Open-source work**
+
+- **[Dikte — macOS support](https://github.com/yusufipk/dikte)** — one of my
+  first substantial open-source contributions. I added the macOS installer and
+  app bundle, a visible menu bar icon, native global shortcuts, clipboard/paste
+  integration, and the macOS permission flow to a project originally built for
+  Linux. The work was merged upstream in
+  [PR #25](https://github.com/yusufipk/dikte/pull/25) after passing the Linux
+  and macOS test matrix.
 
 Mostly Laravel, Vue, Rust and Linux. Reach me at
 [info@cansoykanyilmaz.com](mailto:info@cansoykanyilmaz.com).
